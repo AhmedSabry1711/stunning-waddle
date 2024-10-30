@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: linear-gradient( to top right,rgb(165, 61, 151),rgba(195, 34, 195, 0.745),rgb(147, 13, 125),rgb(17, 212, 134));
+    background-image: linear-gradient( to top right,rgb(67, 11, 61),rgba(43, 15, 43, 0.745),rgb(63, 13, 46),rgb(223, 18, 203));
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: grid;
@@ -72,7 +72,7 @@ span:hover{
     display: flex;
     justify-content: start;
      gap:10px;
-     width: 100%;
+     width: 90%;
      border-bottom:1px solid gray;
     }
 
@@ -115,12 +115,10 @@ aside{
 
 footer{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
     grid-area: footer;
-    background-color: rgb(67, 5, 56);
-    color: bisque;
+    color:white;
     bottom: 0px;
 
 
@@ -151,5 +149,5 @@ button{
     width: 100px;
     height: 50px;
     border-radius: 20px;
-    background-color: rgb(60, 41, 60);
+    background-color: rgb(117, 6, 117);
 }
